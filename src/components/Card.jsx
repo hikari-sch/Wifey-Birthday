@@ -29,25 +29,23 @@ function Card() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center overflow-clip">
-    <div className="w-[400px]  h-screen flex flex-col items-center justify-center">
+    <div className="w-[90%] max-w-[500px]  h-screen flex flex-col items-center justify-center">
       <motion.div  initial={{ opacity: 0, visibility: "hidden" }}
           animate={{ opacity: 1, visibility: "visible" }}
           transition={{duration: 1.2}}>
       <div id="card" className={`${cardClass}`} onClick={toggleCard}>     
         <div id="card-inside">
           <div className="wrap">
-            <p>Happy Birthday, John Doe!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus dolore recusandae eveniet dicta. Corrupti.</p>
+            <p>Happy Birthday, Della Riesma Arum Asyifa!</p>
+            <p>Selamat ulang tahun yaa sayangkuuu, sekarang dah 24 luwhh wkwkwk</p>
+
             <p>
-              I hope you have a very blessed birthday!
+             Semoga semua impianmu tercapai dan selalu diberikan kesehatan, kebahagiaan, dan kesuksesan di setiap langkahmu.
             </p>
             <p>
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, cum.
+              Kalau kamu lelah, inget ada aku. aku bakal selalu support kamu, jangan pernh menyerah menghadapi dunia yang kejam dan penuh dapur mbg ini. U deserve all happiness in the world, and I hope this year brings you lots of it. I love you so much, and I'm grateful to have you in my life. Happy birthday again, my love!
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <p className="signed">Jane Doe</p>
+            <p className="signed">Your Husband, B</p>
           </div>
         </div>
 
