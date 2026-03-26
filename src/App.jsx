@@ -1,11 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { HashRouter as Router, Routes, Route } from "react-router-dom"
 import { Home,Picture,Card,Cake,Present } from "./components"
 import './index.css'
 
 function App() {
 
   return (
-    <Router basename="/Wifey-Birthday/">
+    <Router>
       <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/pictures" element={<Picture/>}/>

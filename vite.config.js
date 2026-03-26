@@ -3,6 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/birthday_website_mobile/',
+  base: '/Wifey-Birthday/',
   plugins: [react()],
+  build: {
+    outDir: 'dist',
+  },
 })
